@@ -1,19 +1,28 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
-  "private": true,
   "scripts": {
+    "edgio:dev": "edgio dev",
+    "edgio:build": "edgio build",
+    "edgio:deploy": "edgio deploy",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
     "next": "12.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@edgio/cli": "^5.0.3",
+    "@edgio/core": "^5.0.3",
+    "@edgio/devtools": "^5.0.3",
+    "@edgio/next": "^5.0.3",
+    "@edgio/prefetch": "^5.0.3",
+    "@edgio/react": "^5.0.3",
     "eslint": "8.25.0",
     "eslint-config-next": "12.3.1"
   }
