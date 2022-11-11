@@ -2,7 +2,7 @@
   "version": "v1",
   "packages": {
     "@edgio/cli": {
-      "signature": "f91ebb4e954ebef560040a4dd60b4d99",
+      "signature": "82859941f2f95aaf88e3721e3720de4d",
       "file": true,
       "replaced": "5.0.5-next-1668173901-8e6dbea.0"
     }
