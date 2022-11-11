@@ -968,10 +968,8 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
-"@edgio/cli@5.0.5-next-1668173901-8e6dbea.0":
-  version "5.0.5-next-1668173901-8e6dbea.0"
-  resolved "https://registry.yarnpkg.com/@edgio/cli/-/cli-5.0.5-next-1668173901-8e6dbea.0.tgz#3c5dbdd270717872bc6f11d0ee6e89a785acd26b"
-  integrity sha512-XVLX57eyAPWs3d9cOsBPAh92q77wlqVq7ruGyeGHVpw1UnAG1g/XksCr4s9+6Lj8t0yetLeSG67Mi/kna+u7Ew==
+"@edgio/cli@file:.yalc/@edgio/cli":
+  version "5.0.4"
   dependencies:
     axios "^0.21.2"
     chalk "^4.1.2"

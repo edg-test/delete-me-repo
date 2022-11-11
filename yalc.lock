@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "packages": {
+    "@edgio/cli": {
+      "signature": "f91ebb4e954ebef560040a4dd60b4d99",
+      "file": true,
+      "replaced": "5.0.5-next-1668173901-8e6dbea.0"
+    }
+  }
+}
