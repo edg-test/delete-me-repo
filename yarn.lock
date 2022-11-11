@@ -968,10 +968,10 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
-"@edgio/cli@5.0.5-next-1668163581-f579ea3.0":
-  version "5.0.5-next-1668163581-f579ea3.0"
-  resolved "https://registry.yarnpkg.com/@edgio/cli/-/cli-5.0.5-next-1668163581-f579ea3.0.tgz#6857c0b2a6685d389671e67436d956d26f4b0f06"
-  integrity sha512-Pzz65x7RWHm4mCkjYDvqpc8iz4lnR4QH9KGEzI+QrRR4x4cfk35oZ8V6299z6LFXC03jlPn3Go/xLF7OBHo9YQ==
+"@edgio/cli@5.0.5-next-1668173901-8e6dbea.0":
+  version "5.0.5-next-1668173901-8e6dbea.0"
+  resolved "https://registry.yarnpkg.com/@edgio/cli/-/cli-5.0.5-next-1668173901-8e6dbea.0.tgz#3c5dbdd270717872bc6f11d0ee6e89a785acd26b"
+  integrity sha512-XVLX57eyAPWs3d9cOsBPAh92q77wlqVq7ruGyeGHVpw1UnAG1g/XksCr4s9+6Lj8t0yetLeSG67Mi/kna+u7Ew==
   dependencies:
     axios "^0.21.2"
     chalk "^4.1.2"
@@ -1014,10 +1014,10 @@
     yauzl "^2.10.0"
     yazl "^2.5.1"
 
-"@edgio/core@5.0.5-next-1668163581-f579ea3.0":
-  version "5.0.5-next-1668163581-f579ea3.0"
-  resolved "https://registry.yarnpkg.com/@edgio/core/-/core-5.0.5-next-1668163581-f579ea3.0.tgz#9b2b02bca56c679f0528ff805ee5a0fa88939430"
-  integrity sha512-Bbk6S/I7CBLVAKyo8PSnmNRxVmsFzwJP+Df9zepiBFy3b0McDQqQyZf9BVJbVh4zmWw/rR2MObFeq/3/dLcGiw==
+"@edgio/core@5.0.5-next-1668173901-8e6dbea.0", "@edgio/core@^5.0.5-next-1668173901-8e6dbea.0":
+  version "5.0.5-next-1668173901-8e6dbea.0"
+  resolved "https://registry.yarnpkg.com/@edgio/core/-/core-5.0.5-next-1668173901-8e6dbea.0.tgz#d3d0c08354742391d7f3097c0914d6ee75474550"
+  integrity sha512-QIKBgddnflq60LlNvkIVt1L2JfAoevbLHeyEiFhGirpPifk3WW/43p5cmRcPzAZw60t9Jc23eT4gJMHeNpU8ZQ==
   dependencies:
     "@babel/parser" "^7.18.9"
     "@babel/traverse" "^7.18.9"
@@ -1055,60 +1055,19 @@
     unixify "^1.0.0"
     uuid "^8.3.2"
 
-"@edgio/core@^5.0.5-next-1668163581-f579ea3.0":
-  version "5.0.5-next-1668164113-fbc9a28.0"
-  resolved "https://registry.yarnpkg.com/@edgio/core/-/core-5.0.5-next-1668164113-fbc9a28.0.tgz#da1c5d5a8813ff49ea1d1c4b2e24ef891d839fdc"
-  integrity sha512-93kTidK//eaipsomy5/Kf4LOBM6lT2bDtqhsfL/4yg64EdqjaFSXNqnj5jvgwcxxzhFq7hIhCW7o+6CUj1y4wA==
-  dependencies:
-    "@babel/parser" "^7.18.9"
-    "@babel/traverse" "^7.18.9"
-    "@types/lodash.clonedeep" "^4.5.6"
-    ajv "^6.12.6"
-    babel-loader "^8.2.2"
-    chalk "^4.1.2"
-    chardet "^1.4.0"
-    chokidar "^3.5.1"
-    cls-hooked "^4.2.2"
-    content-type "^1.0.4"
-    cookie "^0.4.1"
-    cross-spawn "^7.0.3"
-    decode-uri-component "^0.2.0"
-    deepmerge "^4.2.2"
-    esbuild "^0.14.49"
-    express "^4.17.1"
-    fluentvalidation-ts "^2.2.2"
-    fs-extra "^8.1.0"
-    globby "^11.0.2"
-    http-proxy "^1.18.1"
-    lodash.clonedeep "^4.5.0"
-    lru-cache "^6.0.0"
-    mime-types "^2.1.35"
-    node-fetch "^2.6.1"
-    path-to-regexp "^6.2.0"
-    pino "^6.13.3"
-    qs "^6.10.1"
-    resolve-package-path "^4.0.3"
-    semver "^7.3.5"
-    shelljs "^0.8.5"
-    slash "^3.0.0"
-    tcp-port-used "^1.0.2"
-    ts-loader "^8.2.0"
-    unixify "^1.0.0"
-    uuid "^8.3.2"
-
-"@edgio/devtools@5.0.5-next-1668163581-f579ea3.0":
-  version "5.0.5-next-1668163581-f579ea3.0"
-  resolved "https://registry.yarnpkg.com/@edgio/devtools/-/devtools-5.0.5-next-1668163581-f579ea3.0.tgz#b9c51cff477bc89d3ae2f4e235f0f3236470ea30"
-  integrity sha512-yYLtnWf8PuWJ7P2Mg1RdFTsJHVAWgPBAVmJ1OSWYNMxKCH9+PoUJ0l3VOCVQ7XIBe8/788Oc7JcJCERM/VM0UQ==
+"@edgio/devtools@5.0.5-next-1668173901-8e6dbea.0":
+  version "5.0.5-next-1668173901-8e6dbea.0"
+  resolved "https://registry.yarnpkg.com/@edgio/devtools/-/devtools-5.0.5-next-1668173901-8e6dbea.0.tgz#bc6686305c127a15142f9ce08c6e467a870cd692"
+  integrity sha512-SfC5BbpglqPMcCCCCMFqA+gGD+yCZoTuiguVVN1rkJ/nqI0plJBp78PnxvFFvuc063mqFrBjVk5G+G1lqOofxQ==
   dependencies:
     clsx "^1.1.1"
     lodash "^4.17.20"
     sirv-cli "^1.0.0"
 
-"@edgio/next@5.0.5-next-1668163581-f579ea3.0":
-  version "5.0.5-next-1668163581-f579ea3.0"
-  resolved "https://registry.yarnpkg.com/@edgio/next/-/next-5.0.5-next-1668163581-f579ea3.0.tgz#fa54cab781f0fe730623b74f8486711702ede663"
-  integrity sha512-KQL6DhE8AyRopjvXvu/GgnKCM2ON2ZDI3QeTRuFf2z2LCLdL4iKU4A/OpKCkactV3keedaEvxPimy58Y37Vphw==
+"@edgio/next@5.0.5-next-1668173901-8e6dbea.0":
+  version "5.0.5-next-1668173901-8e6dbea.0"
+  resolved "https://registry.yarnpkg.com/@edgio/next/-/next-5.0.5-next-1668173901-8e6dbea.0.tgz#88da600c2f3b0b8b676584bf3919ee4427dcb3ca"
+  integrity sha512-kyi7Vb2yHlNJQiTl4H4H8aOEf653iPCt/dRgVsqbPEelmaLO2gwtapurP8D1AtHNO3boaC7HSO8ksFH1L6ythA==
   dependencies:
     "@vercel/nft" "^0.13.1"
     chalk "^4.1.2"
@@ -1125,12 +1084,12 @@
     webpack "^4.0.0"
     webpack-sources "^2.2.0"
 
-"@edgio/prefetch@5.0.5-next-1668163581-f579ea3.0":
-  version "5.0.5-next-1668163581-f579ea3.0"
-  resolved "https://registry.yarnpkg.com/@edgio/prefetch/-/prefetch-5.0.5-next-1668163581-f579ea3.0.tgz#cb34ce61d6a9d41ab4d542400d4f4c6f8a232b08"
-  integrity sha512-ER2T9pCpCXjkbda713xncXsOWTo/QJEvM3lX/hn1DbyniTB2YURv41dT9qFYaHUfv0KClNNuWazMexxjvagF2Q==
+"@edgio/prefetch@5.0.5-next-1668173901-8e6dbea.0":
+  version "5.0.5-next-1668173901-8e6dbea.0"
+  resolved "https://registry.yarnpkg.com/@edgio/prefetch/-/prefetch-5.0.5-next-1668173901-8e6dbea.0.tgz#b199b9782f8f3dc8c5c0b1ff6ef73b9296900cd4"
+  integrity sha512-k/DpQMQPW/LFeCUQ0KA8POJz97lwh0i4kPFL6wKMWBjeGVuie7hENCe89pN1h70VjBRbS5m7UGdYinfbG2Zy2w==
   dependencies:
-    "@edgio/core" "^5.0.5-next-1668163581-f579ea3.0"
+    "@edgio/core" "^5.0.5-next-1668173901-8e6dbea.0"
     cheerio "^1.0.0-rc.3"
     json-query "^2.2.2"
     workbox-cacheable-response "^5.1.2"
@@ -1140,10 +1099,10 @@
     workbox-routing "^5.1.2"
     workbox-strategies "^5.1.2"
 
-"@edgio/react@5.0.5-next-1668163581-f579ea3.0":
-  version "5.0.5-next-1668163581-f579ea3.0"
-  resolved "https://registry.yarnpkg.com/@edgio/react/-/react-5.0.5-next-1668163581-f579ea3.0.tgz#0af93ce998f75d16e53188529d0beaf609d1634e"
-  integrity sha512-7qCWVeQb8CeGMibqKGzhkkeiBLw654Vd6AAKrhAXfUHhOHoQuv/TvYdg66pFwfmQTn+j8FhuxqJlJKUx+W7RSw==
+"@edgio/react@5.0.5-next-1668173901-8e6dbea.0":
+  version "5.0.5-next-1668173901-8e6dbea.0"
+  resolved "https://registry.yarnpkg.com/@edgio/react/-/react-5.0.5-next-1668173901-8e6dbea.0.tgz#51acba5c567fa370874933f68cb65e7d2ac2e391"
+  integrity sha512-t/Zk72anAlH+gasrORVKvT3D8/jxlGdmc2Rj+vZiW7WJcTyqhmZPDtC6jCQcCnYZcgLu9I5u4Ni4lkRN0NKNoQ==
   dependencies:
     prop-types "^15.8.1"
     react-merge-refs "^1.1.0"
