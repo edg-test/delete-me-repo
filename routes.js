@@ -14,23 +14,5 @@ export default new Router()
     return serviceWorker('.next/static/service-worker.js')
   })
 
-  .get("/foo/bar", ({ 
-    setUpstreamResponseHeader,
-    setResponseHeader,
-    proxy,
-    cache }) => {
-    cache({
-      browser: false,
-      edge: {
-        maxAgeSeconds: 6,
-      },
-    });
-    proxy("origin");
-    setResponseHeader('header-name', 'header-value');
-    setResponseHeader(' x-0-t', 'ECL=TRUE');
-    setResponseHeader(' x-0-status', 'ECL=TRUE');
-    setResponseHeader(' x-0-components', 'ECL=TRUE');
-    setUpstreamResponseHeader(' x-0-version', 'ECL=TRUE');
-  })
 
   .use(nextRoutes) // automatically adds routes for all files under /pages
